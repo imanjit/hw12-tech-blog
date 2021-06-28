@@ -1,0 +1,30 @@
+{
+  "name": "hw12-tech-blog",
+  "version": "1.0.0",
+  "description": "CMS-style blog site where developers can publish their blog posts and comment on other developers' posts as well",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imanjit/hw12-tech-blog.git"
+  },
+  "author": "https://github.com/imanjit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imanjit/hw12-tech-blog/issues"
+  },
+  "homepage": "https://github.com/imanjit/hw12-tech-blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.4"
+  }
+}
